@@ -1,0 +1,10 @@
+So far:
+- In part 1 I stop the services open the messenger server window and close it.
+- In part 2 I send encrypted credentials to the RDSERVER to run a .bat file that stops the databases, waits for 1 second and then forces restart of the machine,
+  it then pings the machine repeatedly and once the machine replies to a ping then it will start the remote service on the server.
+- In part 3 it starts the services "SCS TermCNS", "SCS TermCCS" and "SCS TermMCP" and then runs the "SCS Message Server" shortcut.
+
+-------------------------
+To do:
+
+1. I need to create a master script that invokes part 1, 2 and 3 in order at the correct times.
